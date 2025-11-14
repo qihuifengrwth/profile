@@ -3,98 +3,332 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Qihui Feng (冯祺徽)</title>
+  <title>Qihui Feng (冯祺徽) - AI Researcher</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; justify-content: center; align-items: center; text-align: center;">
-      <div style="margin-right: 20px;">
-      <img src="selfie.jpg" alt="Your Photo" style="width: 300px; height: auto;">
+    <div class="header-content">
+      <div class="header-left">
+        <img src="selfie.jpg" alt="Qihui Feng" class="profile-photo">
       </div>
-      <div>
-        <h1 style="margin:0; font-size:30px;">Qihui Feng <span lang="zh-CN" style="font-weight:normal;">(冯祺徽)</span></h1>
-        <!-- <p style="margin:6px 0 0 0;">Doctoral Student, Knowledge-Based Systems Group (KBSG), RWTH Aachen University</p> -->
-      </div>
+      <div class="header-right">
+        <h1>Qihui Feng <span lang="zh-CN" class="chinese-name">(冯祺徽)</span></h1>
+        <p class="subtitle">Doctoral Student, Computer Science</p>
+        <p class="subtitle">Knowledge-Based Systems Group (KBSG), RWTH Aachen University</p>
+        <div class="header-links">
+          <a href="mailto:feng@kbsg.rwth-aachen.de" class="header-link">Email</a>
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=bvIBlRQAAAAJ" target="_blank" rel="noopener" class="header-link">Google Scholar</a>
+          <a href="data/cv.pdf" target="_blank" class="header-link download-btn">Download CV</a>
+          <a href="data/research statement.pdf" target="_blank" class="header-link download-btn">Research Statement</a>
         </div>
-        <nav>
+      </div>
+    </div>
+    <nav>
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#research">Research</a></li>
         <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#teaching">Teaching</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-        </nav>
-      </header>
+    </nav>
+  </header>
 
-      <main>
-        <section id="about">
+  <main>
+    <section id="about">
       <h2>About Me</h2>
-      <p>I am a doctoral student in the Knowledge-Based Systems Group (KBSG) at RWTH Aachen University. My research is funded by the Deutsche Forschungsgemeinschaft (DFG). My supervisor is Prof. Gerhard Lakemeyer, and I am co-supervised by Prof. Jürgen Giesl.</p>
-        </section>
+      <p>I am a doctoral student in the <strong>Knowledge-Based Systems Group (KBSG)</strong> at RWTH Aachen University. My study is funded by the <strong>Deutsche Forschungsgemeinschaft (DFG)</strong> under the supervision of <strong>Prof. Gerhard Lakemeyer</strong>.</p>
+      <p>My research focuses on <strong>knowledge representation and reasoning in multi-agent systems</strong>, with emphasis on developing formal and neuro-symbolic methods for epistemic reasoning. I am particularly interested in bridging theoretical foundations with practical applications in artificial intelligence.</p>
+      <p>I have collaborated with researchers from Germany (Aachen), the UK (Edinburgh), China (Nanjing), and Canada (Regina), and I look forward to further expanding these international and interdisciplinary collaborations.</p>
+    </section>
 
-        <section id="research">
-      <h2>Research</h2>
-      <p>My research focuses on Artificial Intelligence, particularly in Knowledge Representation, Multi-Agent Systems, Modal Reasoning, Epistemic Planning, and Neuro-Symbolic AI.</p>
-        </section>
-
-      <section id="teaching">
-        <h2>Teaching</h2> 
-        <p>I have served as a teaching assistant for the following courses:</p>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Doctoral Study, Computer Science</h3>
+          <span class="date">2022 - Present</span>
+        </div>
+        <p class="institution">RWTH Aachen University, Germany</p>
         <ul>
-              <li>Lecture:</li>
-              <ul>
-              <li>Introduction to Artificial Intelligence (2022–2024)</li>
-              <li>The Logic of Knowledge Bases (2023)</li>
-              </ul>
-              <li>Seminar:</li>
-              <ul>
-              <li>Künstliche Intelligenz (2022, 2023)</li>
-              <li>Reasoning in Robotics (2024)</li>
-              </ul>
+          <li>Funded by the Deutsche Forschungsgemeinschaft (DFG)</li>
+          <li>Supervised by Prof. Gerhard Lakemeyer</li>
+          <li>Focus: Knowledge representation and reasoning in multi-agent systems</li>
         </ul>
-      </section>
+      </div>
 
-      <section id="publications">
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Master of Science, Computer Science</h3>
+          <span class="date">2018 - 2021</span>
+        </div>
+        <p class="institution">RWTH Aachen University, Germany</p>
+        <ul>
+          <li>Focus: Knowledge Representation and Reasoning; Natural Language Processing; Automatic Speech Recognition</li>
+          <li>Master Thesis: "Reasoning about Belief by Progression" - studying progression reasoning in a noisy, dynamical environment</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Bachelor of Science, Computing Science</h3>
+          <span class="date">2013 - 2017</span>
+        </div>
+        <p class="institution">Sun Yat-Sen University, China</p>
+        <ul>
+          <li>Hybrid program: 2 years of Mathematics and 2 years of Computer Science</li>
+          <li>Bachelor Thesis: "Image Super-Resolution based on Dictionary Learning"</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <p>My research focuses on knowledge representation and reasoning, particularly on reasoning about probabilistic and higher-order beliefs. I aim to develop formal and neuro-symbolic methods for epistemic reasoning in multi-agent systems.</p>
+
+      <h3>Current Research Areas</h3>
+      <ul class="research-list">
+        <li><strong>Multi-agent epistemic planning</strong> - Developing decidable approaches that preserve expressiveness while bounding Theory of Mind (ToM) complexity</li>
+        <li><strong>Modal reasoning and theorem proving</strong> - Translation-based theorem provers for multi-agent modal logics with introspection</li>
+        <li><strong>Probabilistic reasoning</strong> - Expressive logical frameworks integrating probability theory with possible-world semantics</li>
+        <li><strong>Knowledge compilation</strong> - Efficient representations for complex knowledge bases</li>
+        <li><strong>Integration of LLMs with formal methods</strong> - Bridging subsymbolic and symbolic AI for explainable and trustworthy systems</li>
+      </ul>
+
+      <h3>Research Lines</h3>
+      <div class="research-lines">
+        <div class="research-line">
+          <h4>Probabilistic Reasoning</h4>
+          <p>Expressive logical frameworks that integrate probability theory with possible-world semantics, enabling reasoning about probability distributions in both static and dynamic settings.</p>
+        </div>
+        <div class="research-line">
+          <h4>Modal Theorem Proving</h4>
+          <p>Translation-based theorem provers for multi-agent modal logics with introspection, preserving decidability while supporting first-order extensions.</p>
+        </div>
+        <div class="research-line">
+          <h4>Multi-agent Planning</h4>
+          <p>Syntactic approach for multi-agent epistemic planning that bounds Theory of Mind (ToM) order to preserve decidability while maintaining expressiveness.</p>
+        </div>
+        <div class="research-line">
+          <h4>Neuro-Symbolic Methods</h4>
+          <p>Integrating formal reasoning with vision-language models (VLMs) and large language models (LLMs) for explainable and trustworthy AI systems.</p>
+        </div>
+      </div>
+
+      <h3>Future Directions</h3>
+      <ul class="future-research">
+        <li>Extending multi-agent epistemic planning to broader reasoning tasks: logical programming for higher-order beliefs, strategy synthesis, and epistemic protocol synthesis</li>
+        <li>Applying theoretical frameworks to practical tasks such as social deduction games and human-agent interaction</li>
+        <li>Reasoning with probabilistic defaults provided by pre-trained neural networks</li>
+        <li>RL-based heuristic search for epistemic planning</li>
+        <li>Bridging formal reasoning with natural language via LLM-based semantic parsers</li>
+        <li>Exploring formalization of social science concepts (e.g., Jürgen Habermas' Universalization Principle, theory of communicative actions)</li>
+      </ul>
+    </section>
+
+    <section id="publications">
       <h2>Publications</h2>
-      <p>For the full, up-to-date list, see my Google Scholar profile:
-        <a href="https://scholar.google.com/citations?hl=zh-CN&user=bvIBlRQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-      </p>
-      <ol>
-        <h3>2025</h3>
-        <ul>
-            <li><strong>Q. Feng</strong>, H. Wilk, S. M. Khan, G. Lakemeyer. "Translating Multi-Agent Modal Logics of Knowledge and Belief into Decidable First-Order Fragments." Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pp. 740–748. <a href="https://dl.acm.org/doi/10.5555/3709347.3743591" target="_blank" rel="noopener">[Link]</a></li>
-            <li>E. Jin, <strong>Q. Feng</strong>, et al. "LogicAD: Explainable Anomaly Detection via VLM-Based Text Feature Extraction." Proceedings of the AAAI Conference on Artificial Intelligence 39(4): 4129–4137. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32433" target="_blank" rel="noopener">[Link]</a></li>
-          </ul>
-        <h3>2024</h3>
-        <ul>
-            <li><strong>Q. Feng</strong>, G. Lakemeyer. "Probabilistic Multi-Agent Only-Believing." Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pp. 571–579. <a href="https://dl.acm.org/doi/10.5555/3635637.3662908" target="_blank" rel="noopener">[Link]</a></li>
-        </ul>
-        <h3>2023</h3>
-        <ul>
-            <li>D. Liu, <strong>Q. Feng</strong>. "On the Progression of Belief." Artificial Intelligence, 322: 103947. <a href="https://www.sciencedirect.com/science/article/pii/S0004370223000930" target="_blank" rel="noopener">[Link]</a></li>
-            <li>D. Liu, <strong>Q. Feng</strong>, G. Lakemeyer, V. Belle. "Concerning Measures in a First-Order Logic with Actions and Meta-Beliefs." Proceedings of the 20th International Conference on Principles of Knowledge Representation and Reasoning (KR), pp. 451–460. <a href="https://proceedings.kr.org/2023/44/" target="_blank" rel="noopener">[Link]</a></li>
-            <li><strong>Q. Feng</strong>, D. Liu, V. Belle, G. Lakemeyer. "A Logic of Only-Believing over Arbitrary Probability Distributions." Proceedings of the 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pp. 355–363. <a href="https://dl.acm.org/doi/10.5555/3545946.3598658" target="_blank" rel="noopener">[Link]</a></li>
-          </ul>
-        <h3>2021</h3>
-        <ul>
-            <li>D. Liu, <strong>Q. Feng</strong>. "On the Progression of Belief." Proceedings of the International Conference on Principles of Knowledge Representation and Reasoning (KR), 18(1): 465–474. <strong>(Best Student Paper)</strong>. <a href="https://proceedings.kr.org/2021/44/" target="_blank" rel="noopener">[Link]</a></li>
-        </ul>
+      <p class="scholar-link">For the most up-to-date list, see my <a href="https://scholar.google.com/citations?hl=zh-CN&user=bvIBlRQAAAAJ" target="_blank" rel="noopener">Google Scholar profile</a>.</p>
+
+      <h3 class="year-heading">2026</h3>
+      <ol class="publication-list">
+        <li>
+          <strong>Q. Feng</strong>, G. Lakemeyer.
+          "Decidable Multi-agent Epistemic Planning: A Situation Calculus Approach."
+          <em>Proceedings of the AAAI Conference on Artificial Intelligence</em>, 2026.
+          <span class="note">(Accepted for oral presentation)</span>
+        </li>
       </ol>
-      </section>
 
-      
+      <h3 class="year-heading">2025</h3>
+      <ol class="publication-list">
+        <li>
+          <strong>Q. Feng</strong>, H. Wilk, S. Khan, G. Lakemeyer.
+          "Translating Multi-Agent Modal Logics of Knowledge and Belief into Decidable First-Order Fragments."
+          <em>Proceedings of the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>, 2025: 740-748.
+          <a href="https://dl.acm.org/doi/10.5555/3709347.3743591" target="_blank" rel="noopener">[Link]</a>
+        </li>
+        <li>
+          E. Jin, <strong>Q. Feng</strong>, Y. Mou, S. Decker, G. Lakemeyer, O. Simons, J. Stegmaier.
+          "LogicAD: Explainable Anomaly Detection via VLM-based Text Feature Extraction."
+          <em>Proceedings of the AAAI Conference on Artificial Intelligence</em>, 2025, 39(4): 4129-4137.
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32433" target="_blank" rel="noopener">[Link]</a>
+        </li>
+      </ol>
 
-        <section id="contact">
+      <h3 class="year-heading">2024</h3>
+      <ol class="publication-list">
+        <li>
+          <strong>Q. Feng</strong>, G. Lakemeyer.
+          "Probabilistic Multi-agent Only-believing."
+          <em>Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>, 2024: 571-579.
+          <a href="https://dl.acm.org/doi/10.5555/3635637.3662908" target="_blank" rel="noopener">[Link]</a>
+        </li>
+      </ol>
+
+      <h3 class="year-heading">2023</h3>
+      <ol class="publication-list">
+        <li>
+          D. Liu, <strong>Q. Feng</strong>.
+          "On the progression of belief."
+          <em>Artificial Intelligence</em>, 2023, 322: 103947.
+          <a href="https://www.sciencedirect.com/science/article/pii/S0004370223000930" target="_blank" rel="noopener">[Link]</a>
+        </li>
+        <li>
+          D. Liu, <strong>Q. Feng</strong>, V. Belle, G. Lakemeyer.
+          "Concerning measures in a first-order logic with actions and meta-beliefs."
+          <em>Proceedings of the International Conference on Principles of Knowledge Representation and Reasoning (KR)</em>, 2023, 19(1): 451-460.
+          <a href="https://proceedings.kr.org/2023/44/" target="_blank" rel="noopener">[Link]</a>
+        </li>
+        <li>
+          <strong>Q. Feng</strong>, D. Liu, V. Belle, G. Lakemeyer.
+          "A Logic of Only-Believing over Arbitrary Probability Distributions."
+          <em>Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>, 2023: 355-363.
+          <a href="https://dl.acm.org/doi/10.5555/3545946.3598658" target="_blank" rel="noopener">[Link]</a>
+        </li>
+      </ol>
+
+      <h3 class="year-heading">2021</h3>
+      <ol class="publication-list">
+        <li>
+          D. Liu, <strong>Q. Feng</strong>.
+          "On the Progression of Belief."
+          <em>Proceedings of the International Conference on Principles of Knowledge Representation and Reasoning (KR)</em>, 2021, 18(1): 465-474.
+          <a href="https://proceedings.kr.org/2021/44/" target="_blank" rel="noopener">[Link]</a>
+          <span class="award-badge">Best Student Paper</span>
+        </li>
+        <li>
+          <strong>Q. Feng</strong>.
+          "Reasoning about Belief by Progression."
+          <em>Master's thesis, RWTH Aachen University</em>, Aachen, 2021.
+        </li>
+      </ol>
+
+      <h3 class="year-heading">2019</h3>
+      <ol class="publication-list">
+        <li>
+          <strong>Q. Feng</strong>, W. Wang, E. Tokarchuk, C. Dugast, H. Ney.
+          "Data Processing Techniques for the TAC-KBP 2019 EDL Task."
+          <em>Text Analysis Conference (TAC)</em>, 2019.
+        </li>
+      </ol>
+    </section>
+
+    <section id="awards">
+      <h2>Awards & Honors</h2>
+      <div class="award-item">
+        <h3>KR2021 Marco Cadoli Distinguished Student Paper Prize</h3>
+        <p>Awarded for the paper "On the Progression of Belief" at the International Conference on Principles of Knowledge Representation and Reasoning, 2021.</p>
+      </div>
+      <div class="award-item">
+        <h3>2025 VCLA Outstanding Undergraduate Research Award</h3>
+        <p>One of the Bachelor's theses I advised received this prestigious award, recognizing outstanding undergraduate research in logic and computation.</p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Professional Experience</h2>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Algorithmic Engineer</h3>
+          <span class="date">2021.03 - 2022.02</span>
+        </div>
+        <p class="institution">Midea Corporation</p>
+        <ul>
+          <li>Responsible for the development of a keyword spotting (KWS) model for smart home appliances</li>
+          <li>Trained DFSMN-based model achieving less than 5% false reject rate (at 5m distance, 10 dB SNR, normal reverberant environment)</li>
+          <li>Achieved zero false alarms during a 72-hour stress test</li>
+          <li>System deployed in Midea's ovens, refrigerators, homepods, and air conditioners</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Intern</h3>
+          <span class="date">2020.05 - 2020.08</span>
+        </div>
+        <p class="institution">Midea AI Cloud</p>
+        <ul>
+          <li>Contributed to the development of an industrial sound event detection (SED) system</li>
+          <li>Designed a novel SED framework based on neural Hidden Markov Model</li>
+          <li>Framework achieved excellent performance on both public dataset (DCASE2017, Challenge 3) and Midea's internal product anomaly detection tasks</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Student Assistant</h3>
+          <span class="date">2018.12 - 2020.03</span>
+        </div>
+        <p class="institution">Human Language Technology and Pattern Recognition Group, RWTH Aachen University</p>
+        <ul>
+          <li>Designed a data filtering process for Named Entity Recognition (NER) data in the NIST TAC 2019 workshop</li>
+          <li>Lead author of the workshop paper on data processing techniques</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching Experience</h2>
+
+      <h3>Teaching Assistant</h3>
+      <div class="teaching-categories">
+        <div class="teaching-category">
+          <h4>Lectures</h4>
+          <ul>
+            <li>Introduction to Artificial Intelligence (2022-2024)</li>
+            <li>The Logic of Knowledge Bases (2023)</li>
+          </ul>
+        </div>
+        <div class="teaching-category">
+          <h4>Seminars</h4>
+          <ul>
+            <li>Proseminar: Künstliche Intelligenz (2022, 2023, 2025)</li>
+            <li>Seminar: Reasoning in Robotics (2024)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Thesis Supervision</h3>
+      <p>I have advised or am currently advising <strong>5 Master's theses</strong> and <strong>6 Bachelor's theses</strong>. One of the Bachelor's theses I supervised received the <strong>2025 VCLA Outstanding Undergraduate Research Award</strong>, recognizing exceptional undergraduate research in logic and computation.</p>
+    </section>
+
+    <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:feng@kbsg.rwth-aachen.de">feng@kbsg.rwth-aachen.de</a></p>
-      <p>Office: Room E2 6213, LuFG Informatik 5, Ahornstraße 55, 52056 Aachen, Germany</p>
-        </section>
-      </main>
+      <div class="contact-info">
+        <div class="contact-item">
+          <strong>Email:</strong> <a href="mailto:feng@kbsg.rwth-aachen.de">feng@kbsg.rwth-aachen.de</a>
+        </div>
+        <div class="contact-item">
+          <strong>Office:</strong> Room E2 6213, LuFG Informatik 5, Ahornstraße 55, 52056 Aachen, Germany
+        </div>
+        <div class="contact-item">
+          <strong>Phone:</strong> +49 176-6464-0360
+        </div>
+      </div>
+    </section>
+  </main>
 
-      <footer>
+  <footer>
     <p>&copy; 2025 Qihui Feng. All Rights Reserved.</p>
   </footer>
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
